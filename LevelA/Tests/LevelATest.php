@@ -15,14 +15,14 @@ class LevelATest extends \PHPUnit\Framework\TestCase
 
     public function testB()
     {
-        $str = new Palindrome('def');
+        $str = new Fake('def');
 
         $this->assertEquals('abc', $str->generatePalindrome());
     }
 
     public function testC()
     {
-        $str = new Palindrome('lö');
+        $str = new Fake('lö');
 
         $this->assertEquals('abc', $str->generatePalindrome());
     }
