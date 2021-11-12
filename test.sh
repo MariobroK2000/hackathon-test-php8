@@ -18,4 +18,4 @@ if [ $2 ]; then
 fi
 
 echo "SCORE:"$SCORE
-echo "$NAME;$DATE;$SCORE" >> ../../../scores.csv
+echo "$NAME;$DATE;$SCORE" >> ../../scores.csv
